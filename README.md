@@ -1,6 +1,6 @@
 ## Google spreadsheet RESTful app
 
-Provides JSON data based on a Google doc spreadsheet
+Provides JSON data based on a Google doc spreadsheet, powered by nodejs.
 
 ### Usage
 
@@ -13,7 +13,7 @@ Get JSON from the first worksheet of this [sample public spreadsheet](https://do
 
 Supports public sheets and private sheets with login/pwd or access_token.
 
-### Examples :
+### Examples
 
     $ curl http://localhost:3000/api/v1/sheet/0AilC0U4Eb0tjdGEwR1RDTlRrbnVHbUVBWjBSVHk5OVE/0?login=johndoe@google.com&pwd=mySecret
     $ curl --data "login=johndoe@google.com&pwd=mySecret" http://localhost:3000/api/v1/sheet/0AilC0U4Eb0tjdGEwR1RDTlRrbnVHbUVBWjBSVHk5OVE/0
