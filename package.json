@@ -1,0 +1,43 @@
+{
+  "name": "google-sheet-open-api",
+  "version": "0.0.1",
+  "description": "A Google Sheets Open API",
+  "main": "app",
+  "author": {
+    "name": "Olivier Penhoat",
+    "email": "openhoat@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/openhoat/google-sheet-open-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openhoat/google-sheet-open-api/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/openhoat/google-sheet-open-api/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node debug app.js",
+    "test": "jasmine-node spec"
+  },
+  "dependencies": {
+    "profess": "0.0.4",
+    "hw-util": "0.0.4",
+    "hw-express": "0.0.2",
+    "google-spreadsheet": "git://github.com/openhoat/node-google-spreadsheets.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-jasmine-node": "~0.1.0",
+    "googleapis": "0.4.5"
+  }
+}
