@@ -15,16 +15,18 @@ describe('Google Sheet Open Api', function () {
           return;
         }
         data = JSON.parse(body);
-        expect(JSON.stringify(data)).toBe(JSON.stringify([
-          { firstname: 'John', lastname: 'Doe', age: '20' },
-          { firstname: 'Jack', lastname: 'Russell', age: '42' },
-          { firstname: 'Jennifer', lastname: 'Lobese', age: '54' }
-        ]));
+        expect(data).toBeTruthy();
+        expect(typeof data).toBe('object');
+        expect(data instanceof Array).toBe(true);
+        expect(data.length).toBeTruthy();
+        expect(data[0]['firstname']).toBeTruthy();
+        expect(data[0]['lastname']).toBeTruthy();
+        expect(data[0]['age']).toBeTruthy();
         completed = true;
       });
     });
     waitsFor(function () {
       return completed;
-    }, 'The docs should be loaded', 3000);
+    }, 'The docs should be loaded', 8000);
   });
 });
