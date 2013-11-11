@@ -38,6 +38,7 @@
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-jasmine-node": "~0.1.0",
-    "googleapis": "0.4.5"
+    "googleapis": "0.4.5",
+    "request": "2.27.0"
   }
 }

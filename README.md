@@ -2,6 +2,8 @@
 
 Provides JSON data based on a Google doc spreadsheet, powered by nodejs.
 
+[![Build Status](https://travis-ci.org/openhoat/google-sheet-open-api.png?branch=master)](https://travis-ci.org/openhoat/google-sheet-open-api)
+
 ### Usage
 
     $ npm install
@@ -12,6 +14,10 @@ Get JSON from the first worksheet of this [sample public spreadsheet](https://do
     $ curl http://localhost:3000/api/v1/sheet/0AilC0U4Eb0tjdGEwR1RDTlRrbnVHbUVBWjBSVHk5OVE/0
 
 Supports public sheets and private sheets with login/pwd or access_token.
+
+### Test
+
+    $ grunt test
 
 ### Examples
 
