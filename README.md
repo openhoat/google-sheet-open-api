@@ -1,6 +1,6 @@
 ## Google spreadsheet RESTful app
 
-Provides sheet JSON data based on a Google doc spreadsheet
+Provides JSON data based on a Google doc spreadsheet
 
 ## Usage
 
