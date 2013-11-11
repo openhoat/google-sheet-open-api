@@ -8,8 +8,8 @@ rl = readline.createInterface({
 });
 
 oauth2Config = {
-  clientId: '493132920876-cavdt3nsv8rg5qjli94r81j3vq8u30og.apps.googleusercontent.com',
-  clientSecret: 'D9kIsXKlALR-xkkqK06Hsrc0'
+  clientId: 'myClientID',
+  clientSecret: 'myClientSecret'
 };
 scope = 'https://spreadsheets.google.com/feeds';
 
