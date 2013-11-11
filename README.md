@@ -4,6 +4,7 @@ Provides sheet JSON data based on a Google doc spreadsheet
 
 ## Usage
 
+    $ npm install
     $ npm start
 
 Get JSON from the first worksheet of this spreadsheet https://docs.google.com/spreadsheet/ccc?key=0AilC0U4Eb0tjdGEwR1RDTlRrbnVHbUVBWjBSVHk5OVE :
